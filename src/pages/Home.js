@@ -1,4 +1,5 @@
 import Main from '../components/Main';
+import LinkContainer from "react-router-bootstrap/LinkContainer";
 
 const Home = () => {
     return (
@@ -7,7 +8,7 @@ const Home = () => {
                 <h1>Safest Desk</h1>
                 <p>Making schooling safer for everyone.</p>
 
-                <a className="btn btn-success btn-lg mb-5" href="/order">Order now</a>
+                <LinkContainer to="/order"><a className="btn btn-success btn-lg mb-5" href="">Order now</a></LinkContainer>
             </div>
             
             

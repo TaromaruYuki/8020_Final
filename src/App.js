@@ -16,11 +16,11 @@ function App() {
             <Navigation/>
 
             <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/contact" element={<Contact/>}/>
-                <Route path="/download" element={<Download/>}/>
-                <Route path="/order" element={<Order/>}/>
-                <Route path="/orderfinished" element={<OrderFinished/>}/>
+                <Route path={process.env.PUBLIC_URL + "/"} element={<Home/>}/>
+                <Route path={process.env.PUBLIC_URL + "/contact"} element={<Contact/>}/>
+                <Route path={process.env.PUBLIC_URL + "/download"} element={<Download/>}/>
+                <Route path={process.env.PUBLIC_URL + "/order"} element={<Order/>}/>
+                <Route path={process.env.PUBLIC_URL + "/orderfinished"} element={<OrderFinished/>}/>
 
                 {/* Error Page (has to be last) */}
                 <Route path="*" element={<Error404Page/>}/>
