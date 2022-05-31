@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-// import { Discord, Github, Twitter } from "react-bootstrap-icons";
+import { Github } from "react-bootstrap-icons";
 
 const Footer = () => {
     return (
@@ -10,12 +10,9 @@ const Footer = () => {
                     <span className="text-muted">&copy; {new Date().getUTCFullYear()}</span>
                 </div>
 
-                {/* <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li className="ms-3"><a href="https://discord.gg/qFtz2gS"><Discord size={24} color="#6577e6"/></a></li>
-                    <li className="ms-3"><a href="https://github.com/TaromaruYuki"><Github size={24} color="#fff"/></a></li>
-                    <li className="ms-3"><a href="https://twitter.com/TaromaruYuki"><Twitter size={24} color="#1da1f2"/></a></li>
-                    <li className="ms-3"><a href="https://ko-fi.com/taromaruyuki"><img src="/img/ko-fi.png" alt="" width={24} height={24} /></a></li>
-                </ul> */}
+                <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li className="ms-3"><a href="https://github.com/TaromaruYuki/8020_Final" target="_blank" rel="noopener noreferrer"><Github size={24} color="#000"/></a></li>
+                </ul>
             </Container>
         </footer>
     );
