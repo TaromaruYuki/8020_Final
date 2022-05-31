@@ -7,7 +7,7 @@ const Footer = () => {
             <Container className="d-flex flex-wrap justify-content-between align-items-center">
                 <div className="col-md-4 d-flex align-items-center">
                     <img src="/img/logo_100.png" alt="" className="me-2"/>
-                    <span className="text-muted">&copy; {new Date().getUTCFullYear()} Brand Name</span>
+                    <span className="text-muted">&copy; {new Date().getUTCFullYear()}</span>
                 </div>
 
                 {/* <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
